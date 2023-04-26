@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+      url("/img/bg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Belgrano", serif;
+    color: white;
+  }
+  #header-top {
+    margin: 1rem 0;
+    background-color: transparent;
+    width: 90%;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  #header-top {
+    margin-left: 3%;
+    height: 4%;
+    padding: 1%;
+    border-radius: 50px;
+    box-shadow: 0 0 10px lightgrey;
+    font-size: 1.2rem;
+  }
+  #heading {
+    text-align: center;
+    padding: 2%;
+    width: 80%;
+    height: 3%;
+    font-size: 3rem;
+    color: white;
+  }
+  #backToHome a {
+    color: white;
+  }
+  #fav a {
+    color: white;
+  }
+  #fav a:hover {
+    color: rgb(231, 10, 10);
+  }
+  
+  #container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  #powerstats-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+  }
+  
+  #about-container {
+    display: flex;
+    flex-direction: row;
+  }
+  #name-and-appearance-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #appearance-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #name-and-aka {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .powerstats {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    width: 10%;
+  }
+  
+  #imageOfSuperHero {
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    box-shadow: 0 0 50px lightgrey;
+  }
+  #imageOfSuperHero img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #alignment {
+    display: none;
+  }
+  #hero-name {
+    font-weight: 900;
+    letter-spacing: 4px;
+    font-size: 3.5rem;
+  }
+  #aka {
+    font-weight: 900;
+    letter-spacing: 3px;
+    font-size: 1.75rem;
+  }
+  #real-name {
+    font-weight: 900;
+    letter-spacing: 3px;
+    font-size: 3rem;
+  }
+  
+  .appearance {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  /* ----------------media---------------- */
+  @media (max-width: 991px) {
+    html {
+      font-size: 65.5%;
+    }
+    #about-container {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      text-align: center;
+    }
+  }
+  @media (max-width: 700px) {
+    html {
+      font-size: 55.5%;
+    }
+  }
+  @media (max-width: 570px) {
+    html {
+      font-size: 45.5%;
+    }
+  }
+  @media (max-width: 400px) {
+    html {
+      font-size: 40%;
+    }
+  }

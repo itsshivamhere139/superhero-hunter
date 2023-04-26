@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+  html {
+    font-size: 65.5%;
+  }
+  
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+      url("/bg2.png");
+    background-size: cover;
+    width:100%;
+    min-height: 100vh;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+  }
+  #header-top {
+    position: absolute;
+    top: 3%;
+    left: 3.5%;
+    right: 3.5%;
+    border: 1px solid white;
+    border-radius: 25px;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    padding: 10px 15px;
+    font-size: 3rem;
+    box-shadow: 0 0 5px 5px white;
+  }
+  #welcome {
+    font-size: 3rem;
+  }
+  #fav a {
+    font-size: 3rem;
+    text-decoration: none;
+  }
+  
+  #fav a:hover {
+    color: red;
+  }
+  
+  /* container */
+  #container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+  }
+  #heading {
+    font-family: "Lobster", cursive;
+    font-size: 6rem;
+    text-align: center;
+  }
+  #info {
+    font-family: "Pacifico", cursive;
+    font-size: 3rem;
+    text-align: center;
+  }
+  #searchHeroBar {
+    width: 80%;
+  }
+  #searchHero {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: large;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    color: black;
+  }
+  
+  #displayHeroSearchResults {
+    position: absolute;
+    top: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    flex-direction: row;
+    width: 80%;
+  }
+  /* .loading-and-error-font {
+    font-family: "PT Mono", monospace;
+    letter-spacing: 2px;
+  } */
+  .hero-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Dawning of a New Day", cursive;
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    margin: 10px;
+    box-shadow: 0 0 5px 5px white;
+  }
+  .hero-card span,
+  div {
+    padding: 10px 0;
+  }
+  
+  .hero-card img {
+    width: 150px;
+    margin-top: 2%;
+    height: 150px;
+    border-radius: 100px;
+  }
+  
+  /* ----------------media---------------- */
+  @media (max-width: 991px) {
+    html {
+      font-size: 55.5%;
+    }
+  }
+  @media (max-width: 700px) {
+    html {
+      font-size: 45.5%;
+    }
+  }
+  @media (max-width: 570px) {
+    html {
+      font-size: 35.5%;
+    }
+  }
+  @media (max-width: 400px) {
+    html {
+      font-size: 30%;
+    }
+  }
